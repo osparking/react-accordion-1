@@ -25,7 +25,6 @@ function App() {
         </ol>
       ),
     },
-    ,
     {
       id: 2,
       label: "그런데 이 것은 형편없다.",

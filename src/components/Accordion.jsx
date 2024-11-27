@@ -3,7 +3,6 @@ import "./Accordion.css";
 
 const Accordion = ({ items, keepOthersOpen }) => {
   const [accordionItems, setAccordionItems] = useState(null);
-  const [count, setCount] = useState();
 
   useEffect(() => {
     if (items) {
